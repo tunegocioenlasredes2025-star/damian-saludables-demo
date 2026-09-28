@@ -1,0 +1,1003 @@
+{
+ "_nota": "Catálogo de EJEMPLO de la demo. Precios en pesos, plausibles a sept. 2026. precioKg está calculado (precio * 1000 / gramos); la tienda lo recalcula igual. stock por presentación: 0 = sin stock. tipo 'pack' = box de regalo (su 'contenido' apunta a productos del catálogo y el ahorro se calcula solo). etiquetas: sin-tacc y sin-azucar (sin azúcar agregada) = A CONFIRMAR con certificado del proveedor.",
+ "actualizado": "2026-09-28",
+ "categorias": [
+  {
+   "id": "frutos-secos",
+   "nombre": "Frutos secos"
+  },
+  {
+   "id": "mixes",
+   "nombre": "Mixes"
+  },
+  {
+   "id": "semillas",
+   "nombre": "Semillas"
+  },
+  {
+   "id": "miel",
+   "nombre": "Miel y endulzantes"
+  },
+  {
+   "id": "yerba-mate",
+   "nombre": "Yerba y mate"
+  },
+  {
+   "id": "boxes",
+   "nombre": "Boxes de regalo"
+  }
+ ],
+ "promociones": [
+  {
+   "id": "promo-mixes",
+   "nombre": "10 % off en mixes",
+   "tipo": "porcentaje",
+   "valor": 10,
+   "alcance": "categoria",
+   "objetivo": "mixes",
+   "activa": true
+  }
+ ],
+ "productos": [
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc",
+    "sin-azucar"
+   ],
+   "destacado": true,
+   "foto": null,
+   "activo": true,
+   "id": "almendras",
+   "nombre": "Almendras non pareil",
+   "categoria": "frutos-secos",
+   "envase": "bolsa",
+   "relleno": "almendra",
+   "origen": "Mendoza",
+   "descripcion": "Enteras, con piel, sin tostar ni salar. Crocantes y de sabor suave, apenas dulce.",
+   "uso": "Para picar, sumar a la granola del desayuno o hacer leche de almendras en casa.",
+   "presentaciones": [
+    {
+     "id": "250g",
+     "etiqueta": "250 g",
+     "gramos": 250,
+     "precio": 7300,
+     "precioKg": 29200,
+     "stock": 3
+    },
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 13800,
+     "precioKg": 27600,
+     "stock": 20
+    },
+    {
+     "id": "1kg",
+     "etiqueta": "1 kg",
+     "gramos": 1000,
+     "precio": 26000,
+     "precioKg": 26000,
+     "stock": 20
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc",
+    "sin-azucar"
+   ],
+   "destacado": true,
+   "foto": null,
+   "activo": true,
+   "id": "nueces",
+   "nombre": "Nueces mariposa extra light",
+   "categoria": "frutos-secos",
+   "envase": "bolsa",
+   "relleno": "nuez",
+   "origen": "Catamarca",
+   "descripcion": "Mitades enteras y claras, peladas a mano. Sabor suave, sin el amargor de la nuez oscura.",
+   "uso": "En ensaladas, budines, con queso o con un hilo de miel.",
+   "presentaciones": [
+    {
+     "id": "250g",
+     "etiqueta": "250 g",
+     "gramos": 250,
+     "precio": 5900,
+     "precioKg": 23600,
+     "stock": 20
+    },
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 11100,
+     "precioKg": 22200,
+     "stock": 20
+    },
+    {
+     "id": "1kg",
+     "etiqueta": "1 kg",
+     "gramos": 1000,
+     "precio": 21000,
+     "precioKg": 21000,
+     "stock": 20
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc",
+    "sin-azucar"
+   ],
+   "destacado": false,
+   "foto": null,
+   "activo": true,
+   "id": "castanas-caju",
+   "nombre": "Castañas de cajú",
+   "categoria": "frutos-secos",
+   "envase": "bolsa",
+   "relleno": "caju",
+   "origen": "Importadas",
+   "descripcion": "Enteras, crudas, calibre grande. Textura manteca y sabor dulzón.",
+   "uso": "Solas, en salteados o procesadas para hacer cremas y quesos veganos.",
+   "presentaciones": [
+    {
+     "id": "250g",
+     "etiqueta": "250 g",
+     "gramos": 250,
+     "precio": 8400,
+     "precioKg": 33600,
+     "stock": 20
+    },
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 15900,
+     "precioKg": 31800,
+     "stock": 20
+    },
+    {
+     "id": "1kg",
+     "etiqueta": "1 kg",
+     "gramos": 1000,
+     "precio": 30000,
+     "precioKg": 30000,
+     "stock": 20
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc"
+   ],
+   "destacado": false,
+   "foto": null,
+   "activo": true,
+   "id": "pistachos",
+   "nombre": "Pistachos tostados con sal",
+   "categoria": "frutos-secos",
+   "envase": "bolsa",
+   "relleno": "pistacho",
+   "origen": "San Juan",
+   "descripcion": "Con cáscara, tostados y con un toque de sal. Se abren con la mano.",
+   "uso": "Para la picada, el vermú o para tener a mano en el escritorio.",
+   "presentaciones": [
+    {
+     "id": "250g",
+     "etiqueta": "250 g",
+     "gramos": 250,
+     "precio": 13400,
+     "precioKg": 53600,
+     "stock": 20
+    },
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 25400,
+     "precioKg": 50800,
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc",
+    "sin-azucar"
+   ],
+   "destacado": false,
+   "foto": null,
+   "activo": true,
+   "id": "mani-tostado",
+   "nombre": "Maní tostado sin sal",
+   "categoria": "frutos-secos",
+   "envase": "bolsa",
+   "relleno": "mani",
+   "origen": "Córdoba",
+   "descripcion": "Pelado, tostado lento y sin sal agregada. El de siempre, bien crocante.",
+   "uso": "Para picar, para pasta de maní casera o para salsas.",
+   "presentaciones": [
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 4000,
+     "precioKg": 8000,
+     "stock": 20
+    },
+    {
+     "id": "1kg",
+     "etiqueta": "1 kg",
+     "gramos": 1000,
+     "precio": 7600,
+     "precioKg": 7600,
+     "stock": 20
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc"
+   ],
+   "destacado": true,
+   "foto": null,
+   "activo": true,
+   "id": "mix-energetico",
+   "nombre": "Mix energético",
+   "categoria": "mixes",
+   "envase": "bolsa",
+   "relleno": "mix",
+   "origen": "Armado por nosotros",
+   "descripcion": "Almendras, nueces, maní, castañas de cajú y pasas de uva. El clásico de la mochila.",
+   "uso": "Para el trekking, el gimnasio o la media tarde.",
+   "presentaciones": [
+    {
+     "id": "250g",
+     "etiqueta": "250 g",
+     "gramos": 250,
+     "precio": 4800,
+     "precioKg": 19200,
+     "stock": 20
+    },
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 9000,
+     "precioKg": 18000,
+     "stock": 20
+    },
+    {
+     "id": "1kg",
+     "etiqueta": "1 kg",
+     "gramos": 1000,
+     "precio": 17000,
+     "precioKg": 17000,
+     "stock": 20
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc"
+   ],
+   "destacado": false,
+   "foto": null,
+   "activo": true,
+   "id": "mix-tropical",
+   "nombre": "Mix tropical",
+   "categoria": "mixes",
+   "envase": "bolsa",
+   "relleno": "tropical",
+   "origen": "Armado por nosotros",
+   "descripcion": "Banana chips, coco en escamas, ananá deshidratado, pasas y maní. Dulce y crocante.",
+   "uso": "Solo, con yogur o arriba del bowl de frutas.",
+   "presentaciones": [
+    {
+     "id": "250g",
+     "etiqueta": "250 g",
+     "gramos": 250,
+     "precio": 4400,
+     "precioKg": 17600,
+     "stock": 20
+    },
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 8300,
+     "precioKg": 16600,
+     "stock": 20
+    },
+    {
+     "id": "1kg",
+     "etiqueta": "1 kg",
+     "gramos": 1000,
+     "precio": 15600,
+     "precioKg": 15600,
+     "stock": 20
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc",
+    "sin-azucar"
+   ],
+   "destacado": false,
+   "foto": null,
+   "activo": true,
+   "id": "mix-natural",
+   "nombre": "Mix de frutos secos naturales",
+   "categoria": "mixes",
+   "envase": "bolsa",
+   "relleno": "mixnatural",
+   "origen": "Armado por nosotros",
+   "descripcion": "Almendras, nueces, cajú y avellanas, todo crudo y sin sal. Solo frutos secos.",
+   "uso": "Para quien quiere el fruto seco tal cual, sin nada agregado.",
+   "presentaciones": [
+    {
+     "id": "250g",
+     "etiqueta": "250 g",
+     "gramos": 250,
+     "precio": 7700,
+     "precioKg": 30800,
+     "stock": 20
+    },
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 14600,
+     "precioKg": 29200,
+     "stock": 20
+    },
+    {
+     "id": "1kg",
+     "etiqueta": "1 kg",
+     "gramos": 1000,
+     "precio": 27500,
+     "precioKg": 27500,
+     "stock": 20
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [],
+   "destacado": false,
+   "foto": null,
+   "activo": true,
+   "id": "granola",
+   "nombre": "Granola crocante de miel",
+   "categoria": "mixes",
+   "envase": "bolsa",
+   "relleno": "granola",
+   "origen": "Horneada en Castelar",
+   "descripcion": "Avena arrollada, miel, almendras, coco y semillas, horneada en tandas chicas. Racimos grandes.",
+   "uso": "Con leche, yogur o fruta. También sola, de a puñados.",
+   "presentaciones": [
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 5900,
+     "precioKg": 11800,
+     "stock": 20
+    },
+    {
+     "id": "1kg",
+     "etiqueta": "1 kg",
+     "gramos": 1000,
+     "precio": 11200,
+     "precioKg": 11200,
+     "stock": 20
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc",
+    "sin-azucar"
+   ],
+   "destacado": false,
+   "foto": null,
+   "activo": true,
+   "id": "chia",
+   "nombre": "Semillas de chía",
+   "categoria": "semillas",
+   "envase": "bolsa",
+   "relleno": "chia",
+   "origen": "Salta",
+   "descripcion": "Semilla negra y gris, limpia y seleccionada. Absorbe líquido y forma un gel.",
+   "uso": "En el yogur, en licuados o para hacer pudding de chía la noche anterior.",
+   "presentaciones": [
+    {
+     "id": "250g",
+     "etiqueta": "250 g",
+     "gramos": 250,
+     "precio": 2700,
+     "precioKg": 10800,
+     "stock": 20
+    },
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 5100,
+     "precioKg": 10200,
+     "stock": 20
+    },
+    {
+     "id": "1kg",
+     "etiqueta": "1 kg",
+     "gramos": 1000,
+     "precio": 9600,
+     "precioKg": 9600,
+     "stock": 20
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc",
+    "sin-azucar"
+   ],
+   "destacado": false,
+   "foto": null,
+   "activo": true,
+   "id": "lino",
+   "nombre": "Semillas de lino dorado",
+   "categoria": "semillas",
+   "envase": "bolsa",
+   "relleno": "lino",
+   "origen": "Entre Ríos",
+   "descripcion": "Lino dorado, de sabor más suave que el marrón. Entero, para moler en casa.",
+   "uso": "Molido en el pan casero, en la avena o en rebozados.",
+   "presentaciones": [
+    {
+     "id": "250g",
+     "etiqueta": "250 g",
+     "gramos": 250,
+     "precio": 1500,
+     "precioKg": 6000,
+     "stock": 20
+    },
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 2900,
+     "precioKg": 5800,
+     "stock": 20
+    },
+    {
+     "id": "1kg",
+     "etiqueta": "1 kg",
+     "gramos": 1000,
+     "precio": 5400,
+     "precioKg": 5400,
+     "stock": 20
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc",
+    "sin-azucar"
+   ],
+   "destacado": false,
+   "foto": null,
+   "activo": true,
+   "id": "girasol",
+   "nombre": "Semillas de girasol peladas",
+   "categoria": "semillas",
+   "envase": "bolsa",
+   "relleno": "girasol",
+   "origen": "Provincia de Buenos Aires",
+   "descripcion": "Peladas y crudas. Sabor a nuez, muy rendidoras.",
+   "uso": "Tostadas en sartén para ensaladas, panes y barritas.",
+   "presentaciones": [
+    {
+     "id": "250g",
+     "etiqueta": "250 g",
+     "gramos": 250,
+     "precio": 2500,
+     "precioKg": 10000,
+     "stock": 20
+    },
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 4700,
+     "precioKg": 9400,
+     "stock": 20
+    },
+    {
+     "id": "1kg",
+     "etiqueta": "1 kg",
+     "gramos": 1000,
+     "precio": 8800,
+     "precioKg": 8800,
+     "stock": 20
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc",
+    "sin-azucar"
+   ],
+   "destacado": false,
+   "foto": null,
+   "activo": true,
+   "id": "zapallo",
+   "nombre": "Semillas de zapallo peladas",
+   "categoria": "semillas",
+   "envase": "bolsa",
+   "relleno": "zapallo",
+   "origen": "Importadas",
+   "descripcion": "Pepitas verdes peladas, grandes y parejas.",
+   "uso": "Tostadas con sal, en ensaladas o arriba de una crema de calabaza.",
+   "presentaciones": [
+    {
+     "id": "250g",
+     "etiqueta": "250 g",
+     "gramos": 250,
+     "precio": 5500,
+     "precioKg": 22000,
+     "stock": 0
+    },
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 10300,
+     "precioKg": 20600,
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc",
+    "sin-azucar"
+   ],
+   "destacado": false,
+   "foto": null,
+   "activo": true,
+   "id": "mix-semillas",
+   "nombre": "Mix de semillas para ensalada",
+   "categoria": "semillas",
+   "envase": "bolsa",
+   "relleno": "mixsemillas",
+   "origen": "Armado por nosotros",
+   "descripcion": "Girasol, zapallo, sésamo, lino y chía, en partes que se equilibran.",
+   "uso": "Una cucharada arriba de cualquier ensalada, sopa o tostada.",
+   "presentaciones": [
+    {
+     "id": "250g",
+     "etiqueta": "250 g",
+     "gramos": 250,
+     "precio": 3000,
+     "precioKg": 12000,
+     "stock": 20
+    },
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 5700,
+     "precioKg": 11400,
+     "stock": 20
+    },
+    {
+     "id": "1kg",
+     "etiqueta": "1 kg",
+     "gramos": 1000,
+     "precio": 10800,
+     "precioKg": 10800,
+     "stock": 20
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc"
+   ],
+   "destacado": true,
+   "foto": null,
+   "activo": true,
+   "id": "miel-pura",
+   "nombre": "Miel pura de monte",
+   "categoria": "miel",
+   "envase": "frasco",
+   "relleno": "miel",
+   "origen": "Santiago del Estero",
+   "descripcion": "Miel multifloral de monte nativo, de un solo apicultor. Color ámbar y sabor intenso.",
+   "uso": "En el té, en tostadas o para endulzar y glasear en la cocina.",
+   "presentaciones": [
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 7800,
+     "precioKg": 15600,
+     "stock": 20
+    },
+    {
+     "id": "1kg",
+     "etiqueta": "1 kg",
+     "gramos": 1000,
+     "precio": 13900,
+     "precioKg": 13900,
+     "stock": 20
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc"
+   ],
+   "destacado": false,
+   "foto": null,
+   "activo": true,
+   "id": "miel-nueces",
+   "nombre": "Miel con nueces",
+   "categoria": "miel",
+   "envase": "frasco",
+   "relleno": "mielnuez",
+   "origen": "Santiago del Estero",
+   "descripcion": "Mitades de nuez mariposa en miel de monte. Se ve la nuez a través del frasco.",
+   "uso": "Con quesos, sobre helado o en un yogur natural.",
+   "presentaciones": [
+    {
+     "id": "250g",
+     "etiqueta": "250 g",
+     "gramos": 250,
+     "precio": 6900,
+     "precioKg": 27600,
+     "stock": 4
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc"
+   ],
+   "destacado": false,
+   "foto": null,
+   "activo": true,
+   "id": "miel-cremosa",
+   "nombre": "Miel cremosa",
+   "categoria": "miel",
+   "envase": "frasco",
+   "relleno": "mielcremosa",
+   "origen": "Entre Ríos",
+   "descripcion": "Miel batida hasta quedar untable, blanca y suave. No chorrea.",
+   "uso": "Para untar en tostadas y galletas, o derretida en el mate cocido.",
+   "presentaciones": [
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 8200,
+     "precioKg": 16400,
+     "stock": 20
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc"
+   ],
+   "destacado": false,
+   "foto": null,
+   "activo": true,
+   "id": "mascabo",
+   "nombre": "Azúcar mascabo",
+   "categoria": "miel",
+   "envase": "bolsa",
+   "relleno": "mascabo",
+   "origen": "Misiones",
+   "descripcion": "Azúcar integral de caña, húmeda y oscura, con sabor a caramelo.",
+   "uso": "En budines, galletitas, café o para caramelizar.",
+   "presentaciones": [
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 3900,
+     "precioKg": 7800,
+     "stock": 20
+    },
+    {
+     "id": "1kg",
+     "etiqueta": "1 kg",
+     "gramos": 1000,
+     "precio": 7200,
+     "precioKg": 7200,
+     "stock": 20
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc",
+    "sin-azucar"
+   ],
+   "destacado": true,
+   "foto": null,
+   "activo": true,
+   "id": "yerba-organica",
+   "nombre": "Yerba mate orgánica con palo",
+   "categoria": "yerba-mate",
+   "envase": "paquete",
+   "relleno": "yerba",
+   "origen": "Misiones",
+   "descripcion": "Estacionada en forma natural, molienda tradicional con palo. Sabor parejo, rinde muchas cebadas.",
+   "uso": "Para el mate de todos los días.",
+   "presentaciones": [
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 6400,
+     "precioKg": 12800,
+     "stock": 20
+    },
+    {
+     "id": "1kg",
+     "etiqueta": "1 kg",
+     "gramos": 1000,
+     "precio": 11900,
+     "precioKg": 11900,
+     "stock": 20
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [
+    "sin-tacc",
+    "sin-azucar"
+   ],
+   "destacado": false,
+   "foto": null,
+   "activo": true,
+   "id": "yerba-barbacua",
+   "nombre": "Yerba barbacuá",
+   "categoria": "yerba-mate",
+   "envase": "paquete",
+   "relleno": "yerbaoscura",
+   "origen": "Misiones",
+   "descripcion": "Secada a fuego lento sobre brasas, al modo antiguo. Aroma ahumado y sabor profundo.",
+   "uso": "Para los que buscan un mate distinto. Arrancá con poca y agua a 75 °C.",
+   "presentaciones": [
+    {
+     "id": "500g",
+     "etiqueta": "500 g",
+     "gramos": 500,
+     "precio": 7900,
+     "precioKg": 15800,
+     "stock": 5
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [],
+   "destacado": false,
+   "foto": null,
+   "activo": true,
+   "id": "mate-calabaza",
+   "nombre": "Mate de calabaza forrado",
+   "categoria": "yerba-mate",
+   "envase": "mate",
+   "relleno": "mate",
+   "origen": "Hecho a mano en Buenos Aires",
+   "descripcion": "Calabaza seleccionada, forrada en cuero vacuno con virola de alpaca. Cada uno es distinto.",
+   "uso": "Curalo antes de usar: te mandamos cómo en el pedido.",
+   "presentaciones": [
+    {
+     "id": "unidad",
+     "etiqueta": "Unidad",
+     "gramos": null,
+     "precio": 18500,
+     "precioKg": null,
+     "stock": 6
+    }
+   ]
+  },
+  {
+   "tipo": "suelto",
+   "etiquetas": [],
+   "destacado": false,
+   "foto": null,
+   "activo": true,
+   "id": "bombilla",
+   "nombre": "Bombilla pico de loro",
+   "categoria": "yerba-mate",
+   "envase": "bombilla",
+   "relleno": "bombilla",
+   "origen": "Hecha en Buenos Aires",
+   "descripcion": "Pico de loro, filtro de resorte desarmable para limpiarla fácil.",
+   "uso": "Va con cualquier mate. La de alpaca es la de regalo.",
+   "presentaciones": [
+    {
+     "id": "acero",
+     "etiqueta": "Acero",
+     "gramos": null,
+     "precio": 6500,
+     "precioKg": null,
+     "stock": 15
+    },
+    {
+     "id": "alpaca",
+     "etiqueta": "Alpaca",
+     "gramos": null,
+     "precio": 14900,
+     "precioKg": null,
+     "stock": 4
+    }
+   ]
+  },
+  {
+   "tipo": "pack",
+   "etiquetas": [],
+   "destacado": true,
+   "foto": null,
+   "activo": true,
+   "id": "box-regalo",
+   "nombre": "Box Regalo Frutos Secos",
+   "categoria": "boxes",
+   "envase": "caja",
+   "relleno": "box-regalo",
+   "origen": "Armado a mano en Castelar",
+   "descripcion": "Cinco bolsas de 250 g en caja de cartón rígido con moño y tarjeta escrita a mano.",
+   "uso": "Para cumpleaños, fin de año o para quedar bien con un cliente.",
+   "contenido": [
+    {
+     "producto": "almendras",
+     "presentacion": "250g"
+    },
+    {
+     "producto": "nueces",
+     "presentacion": "250g"
+    },
+    {
+     "producto": "castanas-caju",
+     "presentacion": "250g"
+    },
+    {
+     "producto": "pistachos",
+     "presentacion": "250g"
+    },
+    {
+     "producto": "mix-tropical",
+     "presentacion": "250g"
+    }
+   ],
+   "dedicatoria": true,
+   "presentaciones": [
+    {
+     "id": "box",
+     "etiqueta": "Box",
+     "gramos": null,
+     "precio": 34900,
+     "precioKg": null,
+     "stock": 8
+    }
+   ]
+  },
+  {
+   "tipo": "pack",
+   "etiquetas": [],
+   "destacado": true,
+   "foto": null,
+   "activo": true,
+   "id": "box-matero",
+   "nombre": "Box Matero",
+   "categoria": "boxes",
+   "envase": "caja",
+   "relleno": "box-matero",
+   "origen": "Armado a mano en Castelar",
+   "descripcion": "Mate de calabaza forrado, bombilla de alpaca, yerba orgánica y miel cremosa para acompañar.",
+   "uso": "El regalo para el que ya tiene todo menos un buen mate.",
+   "contenido": [
+    {
+     "producto": "yerba-organica",
+     "presentacion": "500g"
+    },
+    {
+     "producto": "mate-calabaza",
+     "presentacion": "unidad"
+    },
+    {
+     "producto": "bombilla",
+     "presentacion": "alpaca"
+    },
+    {
+     "producto": "miel-cremosa",
+     "presentacion": "500g"
+    }
+   ],
+   "dedicatoria": true,
+   "presentaciones": [
+    {
+     "id": "box",
+     "etiqueta": "Box",
+     "gramos": null,
+     "precio": 42900,
+     "precioKg": null,
+     "stock": 4
+    }
+   ]
+  },
+  {
+   "tipo": "pack",
+   "etiquetas": [],
+   "destacado": false,
+   "foto": null,
+   "activo": true,
+   "id": "box-desayuno",
+   "nombre": "Box Desayuno",
+   "categoria": "boxes",
+   "envase": "caja",
+   "relleno": "box-desayuno",
+   "origen": "Armado a mano en Castelar",
+   "descripcion": "Granola, miel de monte, almendras y mix de semillas. Todo lo del desayuno en una caja.",
+   "uso": "Para regalar un domingo, o para arrancar vos la semana.",
+   "contenido": [
+    {
+     "producto": "granola",
+     "presentacion": "500g"
+    },
+    {
+     "producto": "miel-pura",
+     "presentacion": "500g"
+    },
+    {
+     "producto": "almendras",
+     "presentacion": "250g"
+    },
+    {
+     "producto": "mix-semillas",
+     "presentacion": "250g"
+    }
+   ],
+   "dedicatoria": true,
+   "presentaciones": [
+    {
+     "id": "box",
+     "etiqueta": "Box",
+     "gramos": null,
+     "precio": 21900,
+     "precioKg": null,
+     "stock": 10
+    }
+   ]
+  }
+ ]
+}

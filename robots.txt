@@ -1,0 +1,8 @@
+# DEMO: no indexar hasta que el cliente contrate.
+# En producción reemplazar por:
+#   User-agent: *
+#   Allow: /
+#   Disallow: /admin
+#   Sitemap: https://DOMINIO/sitemap.xml
+User-agent: *
+Disallow: /
