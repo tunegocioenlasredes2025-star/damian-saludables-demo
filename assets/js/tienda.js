@@ -262,9 +262,17 @@
     });
     document.addEventListener("keydown", teclaPeso);
 
-    const pagina = document.querySelector("main").dataset.pagina;
+    const main = document.querySelector("main");
+    const pagina = main.dataset.pagina;
     if (pagina === "home") iniciarHome();
     if (pagina === "producto") iniciarFicha();
+    /* productos creados desde el panel: no tienen página propia, se arman acá */
+    const m = location.pathname.match(/^\/producto\/([^/]+)\/?$/);
+    if (pagina === "404" && m && N.porId(cat, decodeURIComponent(m[1]))) {
+      main.dataset.id = decodeURIComponent(m[1]);
+      iniciarFicha();
+      document.title = N.porId(cat, main.dataset.id).nombre + " · " + CFG.BRAND_NAME;
+    }
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", iniciar);

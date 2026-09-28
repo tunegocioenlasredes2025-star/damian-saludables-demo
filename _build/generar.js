@@ -302,7 +302,11 @@ function pagina404() {
 <body>
 ${cabecera()}
 <main id="contenido" data-pagina="404">
-  <div class="ficha-pag"><div class="ficha-no"><h1>No encontramos esa página</h1><p>Puede que el producto haya cambiado de nombre.</p><a class="btn btn--linea" href="/#catalogo">Ver el catálogo</a></div></div>
+  <div id="ficha" class="ficha-pag"><div class="ficha-no"><h1>No encontramos esa página</h1><p>Puede que el producto haya cambiado de nombre.</p><a class="btn btn--linea" href="/#catalogo">Ver el catálogo</a></div></div>
+  <section id="relacionados" class="relacionados" aria-labelledby="rel-t" hidden>
+    <h2 id="rel-t">También te puede interesar</h2>
+    <div class="grilla"></div>
+  </section>
 </main>
 ${pie()}`;
 }
