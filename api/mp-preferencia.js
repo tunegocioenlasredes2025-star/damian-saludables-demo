@@ -10,8 +10,6 @@
    Los precios NO se toman del navegador: se recalculan con data/productos.json
    (en la versión final, con la base de datos). Así nadie paga $1 editando la página.
    ============================================================ */
-const fs = require("fs");
-const path = require("path");
 const N = require("../assets/js/nucleo.js");
 const CFG = require("../assets/js/config.js");
 
@@ -31,7 +29,7 @@ module.exports = async function handler(req, res) {
     return res.status(400).json({ error: "Pedido vacío o inválido" });
   }
 
-  const catalogo = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data/productos.json"), "utf8"));
+  const catalogo = require("../data/productos.json");
   const items = [];
   for (const it of pedido.items) {
     const p = N.porId(catalogo, String(it.id || ""));
